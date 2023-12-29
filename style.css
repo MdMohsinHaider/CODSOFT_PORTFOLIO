@@ -1,0 +1,219 @@
+/*Global CSS */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right,
+            black,
+            rgb(1, 66, 163),
+            rgb(133, 22, 22),
+            black);
+    color: white;
+    font-family: "Inter", sans-serif;
+}
+
+/* Nav bar Style */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to right,
+            rgba(43, 0, 0, 0.336),
+            rgba(1, 43, 107, 0.411),
+            rgba(0, 0, 0, 0.438));
+    height:150px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 21px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(237, 204, 86);
+    font-size: 1.1rem;
+    box-shadow: 0 8px 8px 0 rgba(255, 255, 255, 0.24),
+        0 17px 50px 0 rgba(255, 255, 255, 0.19);
+}
+
+.left {
+    font-size: 1.8rem;
+}
+
+/* Body section */
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 57px 0px;
+    align-items: center;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    /* background-image: url("BackGROUND_EFECT_PNG.png"); */
+    font-size: 3rem;
+}
+
+.leftSection .buttons {
+    padding: 30px 0px;
+}
+
+.leftSection .btn {
+    padding: 4px;
+    background-color: rgb(0, 3, 29);
+    color: whitesmoke;
+    border: 2px solid rgba(255, 255, 255, 0.179);
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.leftSection .btn:hover {
+    color: black;
+    border: 2px solid rgb(7, 14, 82);
+    background-color: rgba(245, 245, 245, 0.672);
+    box-shadow: 0 8px 8px 0 rgba(255, 255, 255, 0.24),
+        0 17px 50px 0 rgba(255, 255, 255, 0.19);
+}
+
+.rightSection img {
+    width: 80%;
+    padding: 50px;
+}
+
+.purple {
+    color: rgb(255, 1, 1);
+}
+
+/* Animation element*/
+#element {
+    color: lime;
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 450px;
+}
+
+.secondSection h1 {
+    font-size: 1.8rem;
+}
+
+.secondSection .box {
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0px;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 100px;
+    width: 1px;
+    background-color: white;
+    margin: 0 6vw;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(26, 44, 188);
+    height: 1.2px;
+    margin: 40px 80px;
+}
+
+.image-top {
+    width: 33px;
+    position: relative;
+    top: -33px;
+    left: -13px;
+}
+
+.text-gray {
+    color: grey;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    width: 150px;
+}
+
+.vertical-title:hover {
+    color: aqua;
+    border-radius: 8px;
+    box-shadow: 0 7px 8px 0 rgba(255, 255, 255, 0.24),
+        0 17px 50px 0 rgba(255, 255, 255, 0.19);
+}
+
+.vertical-decs {
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 11px;
+}
+
+footer {
+    background: linear-gradient(to left, black, rgb(0, 4, 10), black);
+    padding-top: 20px;
+}
+
+footer :hover {
+    color: red;
+}
+
+.footer {
+    justify-content: space-evenly;
+    display: flex;
+    padding: 55px 125px;
+    padding-bottom: 70px;
+}
+
+.footer>div {
+    width: 323px;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    padding: 8px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(100, 167, 243);
+    font-weight: bolder;
+    text-decoration: underline;
+    border-radius: 8px;
+    box-shadow: 0 8px 8px 0 rgba(255, 255, 255, 0.24),
+        0 17px 50px 0 rgba(255, 255, 255, 0.19);
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding-top: 33px;
+    padding-bottom: 8px;
+}
