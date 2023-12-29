@@ -11,7 +11,7 @@ Welcome to my portfolio website! This project showcases my skills, projects, and
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/portfolio-website.git
+   git clone https://github.com/MdMohsinHaider/CODSOFT_PORTFOLIO.git
 
 
 ## Usage
