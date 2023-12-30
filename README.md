@@ -1,4 +1,5 @@
 # Portfolio Website
+live  https://mdmohsinhaider.github.io/CODSOFT_PORTFOLIO/
 
 Welcome to my portfolio website! This project showcases my skills, projects, and experience in web development.
 
@@ -11,17 +12,17 @@ Welcome to my portfolio website! This project showcases my skills, projects, and
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/portfolio-website.git
+   git clone https://github.com/MdMohsinHaider/CODSOFT_PORTFOLIO.git
 
 
 ## Usage
 Feel free to explore the different sections of the website to learn more about me, my skills, and the projects I've worked on. You can also contact me through the provided contact form.
 
 ## Features
-➡️ Home: An introduction section with a brief overview.
-➡️ About Me: Details about my background, skills, and interests.
-➡️ Projects: Showcase of some of the notable projects I've worked on.
-➡️ Contact: A form for visitors to get in touch with me.
+-➡️ Home: An introduction section with a brief overview.
+-➡️ About Me: Details about my background, skills, and interests.
+-➡️ Projects: Showcase of some of the notable projects I've worked on.
+-➡️ Contact: A form for visitors to get in touch with me.
 
 The website is built using HTML, CSS, and JavaScript. The code is organized and well-documented to make it easy for you to understand and customize.
 
